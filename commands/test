@@ -1,0 +1,24 @@
+//const { MessageFlags } = require("discord.js")
+
+//module.exports = {
+    //name: 'test',
+    //despription: "Shows the etastg",
+    //execute(message, args, Discord){
+        //const newEmbed = new Discord.MessageEmbed()
+        //.setColor('#9C1515')
+        //.setTitle('Rules')
+        //.setURL('https://parler.com/%27')
+        //.setDescription('This is an embed for the server rules')
+        //.addFields(
+            //{name: 'Rule 1', value: 'Be respectful to everyone. Harassment/bullying of any kind will NOT be tolerated'},
+            //{name: 'Rule 2', value: 'Do not earape people in the voice chats'},
+           //{name: 'Rule 3', value: 'No advertisement. Advertising of any sort must be first permitted by a moderator or admin.'},
+        //)
+        //.setImage('https://i.kym-cdn.com/entries/icons/original/000/034/772/Untitled-1.png%27')
+        //.setFooter('pls follow the rules :D');
+
+        //message.channel.send(newEmbed);
+    //}
+
+
+//}
