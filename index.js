@@ -19,7 +19,7 @@ for (const file of commandFiles) {
 
 client.once('ready', () => {
     console.log('The bot is ready!');
-    client.user.setActivity('Minecraft | >help', { type: 'PLAYING' })
+    client.user.setActivity('Minecraft | >help', { type: 'STREAMING' })
 });
 
 client.on('message', message => {
