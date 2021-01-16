@@ -54,6 +54,8 @@ client.on('message', message => {
         client.commands.get('cheese').execute(message, args)
     } else if (command == 'mute') {
         client.commands.get('mute').execute(message, args)
+    } else if (command == 'rules') {
+        client.commands.get('rules').execute(message, args)
     }
 
 
