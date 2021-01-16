@@ -1,12 +1,13 @@
 const { MessageFlags } = require("discord.js")
 
 module.exports = {
-    name: 'test',
-    despription: "Shows the etastg",
+    name: 'rules',
+    description: "Shows the etastg",
     execute(message, args, Discord) {
         const newEmbed = new Discord.MessageEmbed()
             .setColor('#0665f3')
             .setTitle('Rules')
+            .setURL('https://discordapp.com/terms')
             .setDescription('These are the rules, please obey them.')
             .addFields(
                 { name: 'Rule 1', value: 'Do not say any offensive slurs in chat.' },
