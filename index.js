@@ -5,7 +5,6 @@ const client = new Discord.Client();
 const prefix = '>';
 
 const fs = require('fs');
-const { url } = require('inspector');
 const embed = require('./commands/embed');
 
 client.commands = new Discord.Collection();
@@ -20,9 +19,7 @@ for (const file of commandFiles) {
 
 client.once('ready', () => {
     console.log('The bot is ready!');
-    client.user.setActivity('Minecraft | >help', {
-        type: "STREAMING",
-        url: "https://www.youtube.com/watch?v=cPJUBQd-PNM"
+    client.user.setActivity('you. | >help', { type: 'WATCHING' })
 });
 
 client.on('message', message => {
