@@ -6,6 +6,9 @@ const prefix = '>';
 
 const fs = require('fs');
 const embed = require('./commands/embed');
+const distube = require('distube')
+
+client.distube = new DisTube(client, { searchSongs: false, emitNewSongOnly: true });
 
 client.commands = new Discord.Collection();
 
