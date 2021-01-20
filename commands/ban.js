@@ -16,7 +16,7 @@ module.exports = {
             }
 
         } else {
-            message.reply(`You do not have permission to use this command! ${message.author}`)
+            message.reply(`You do not have permission to use this command!`)
         }
     }
 }
