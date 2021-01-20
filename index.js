@@ -19,7 +19,7 @@ for (const file of commandFiles) {
 
 client.once('ready', () => {
     console.log('The bot is ready!');
-    client.user.setActivity('you. | >help', { type: 'WATCHING' })
+    client.user.setActivity('Opossum Videos | >help', { type: 'WATCHING' })
 });
 
 client.on('message', message => {
